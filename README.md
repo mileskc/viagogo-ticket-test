@@ -3,7 +3,7 @@
 
 ## Visit the Deployed Link
 
-<a href="https://viagogo-elton-john.netlify.com/" target="_blank"> Elton John Events</a>
+<a target="_blank" href="https://viagogo-elton-john.netlify.com/"> Elton John Events</a>
 
 ## Run Locally
 
