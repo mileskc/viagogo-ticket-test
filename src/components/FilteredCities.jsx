@@ -6,7 +6,6 @@ const FilteredCities = (props) => {
     return(
         <div className = 'events'>
           {props.cities.map(event=> {
-          // return(event.LinkTitleText)
           return(
             <Event eventInfo = {event} />)
           })}

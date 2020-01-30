@@ -14,32 +14,21 @@ class FilterEvents extends React.Component{
 	}
 
 	handleClick = (e) => {
-		// e.preventDefault()
-		console.log('clicked')
-		console.log(e.target.value)
 		let val = e.target.value
 		this.setState({
 			city: val}, ()=>this.filterCities()
 		)
-		
-		// this.filterCities()
 	}	
 
 	filterCities = () => {
-		console.log(this.state.city)
 		let filteredCities = this.state.cities && this.state.cities
 		let filteredCities2 = filteredCities && filteredCities.filter((city) => {
-			// let cityName = city.VenueCity
-			// if (cityName === this.state.city) {
-			// 	return city
-			// }
 			return city.VenueCity === this.state.city
     
 		})
 		this.setState({
       filteredCities:filteredCities2
 		})
-		console.log(this.state.filteredCities)
 	}
 
 	showAllCities = () => {

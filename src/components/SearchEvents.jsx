@@ -16,18 +16,12 @@ class SearchEvents extends React.Component {
 
 
 	handleChange = (e) => {
-		// e.preventDefault()
-		console.log('clicked')
-		console.log(e.target.value)
 		let currentList = json.Items
-		console.log(currentList)
 		let newList = []
 		if(e.target.value !== '') {
 			newList = currentList.filter(concert=>{
 				const eventLC = concert.VenueCity.toLowerCase()
 				const searchedCityLC = e.target.value.toLowerCase()
-				console.log(concert)
-				// return concert.includes(e.target.value)
 				return eventLC.includes(searchedCityLC)
 			})
 		} else {
@@ -44,7 +38,6 @@ class SearchEvents extends React.Component {
 				<div className = "searchContainer">
 					<input className = 'searchBar' type="text" onChange={this.handleChange}placeholder="Type a City"/>
 				</div>
-				{/* <button>Search</button> */}
 				<div className='events'>
 					{this.state.searchedCities.map(event=> {
 					return(
