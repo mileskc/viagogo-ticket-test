@@ -28,12 +28,12 @@ Having all of the cities listed as in Part 2 is visually cumbersome. The user ha
 
 A more optimized filter would be to implement a search bar to allow the user to simply type in the city they are looking for and filter as the user types. The visual focus is clear - it saves the user time and allows them to immediately know if there is an event in the chosen city.
 
-An advanced filter with multiple options could also be implemented if the user wishes to further narrow their search.
+An advanced filter with multiple options could also be implemented if the user wishes to further narrow their search. This way location would not be the only filter option.
 
 ## Versions
 
 Part 3 is currently displayed (search bar filter) - to view the other parts in the browser, uncomment the corresponding component in App.js (labeled by part)
 
 ## Buy Tickets Link
-The value provided for "EventUrl" seems to be all for past dates - because of this, the user is re-routed to the viagogo page with all upcoming Elton John events. However, if the value contained an event url with an upcoming event id, it should route to the proper event page.
+The values provided for the "EventUrl" keys seems to be all for past dates - because of this, the user is re-routed to the viagogo page with all upcoming Elton John events. However, if the value contained an event url with an upcoming event id, it should route to the proper event page.
 
