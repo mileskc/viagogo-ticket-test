@@ -32,7 +32,7 @@ An advanced filter with multiple options could also be implemented if the user w
 
 ## Versions
 
-Part 3 is currently displayed (search bar filter) - to view the other parts in the browser, uncomment the corresponding component in App.js (labeled by part)
+Part 3 is currently displayed (search bar filter) - to view the other parts in the browser, uncomment the corresponding component in App.js (labeled by part). Make sure it is the only component uncommented in App.js besides "< Header />"
 
 ## Buy Tickets Link
 The values provided for the "EventUrl" keys seems to be all for past dates - because of this, the user is re-routed to the viagogo page with all upcoming Elton John events. However, if the value contained an event url with an upcoming event id, it should route to the proper event page.
