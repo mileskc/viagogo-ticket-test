@@ -2,7 +2,8 @@
 # Katelyn Miles viagogo-test
 
 ## Visit the Deployed Link
-[viagogo-elton-john.netlify.com](https://viagogo-elton-john.netlify.com/?target=_blank)
+
+<a href="https://viagogo-elton-john.netlify.com/" target="_blank"> Elton John Events</a>
 
 ## Run Locally
 
