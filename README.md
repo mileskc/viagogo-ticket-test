@@ -2,7 +2,7 @@
 # Katelyn Miles viagogo-test
 
 ## Visit the Deployed Link
-[viagogo-elton-john.netlify.com](https://viagogo-elton-john.netlify.com/)
+[viagogo-elton-john.netlify.com](https://viagogo-elton-john.netlify.com/?target=_blank)
 
 ## Run Locally
 
