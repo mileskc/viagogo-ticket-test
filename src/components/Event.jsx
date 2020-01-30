@@ -16,6 +16,7 @@ const Event = (props) => {
 			<div className = 'price'>
 			<div className = 'priceInfo'>
 				<h5>Tickets starting at {props.eventInfo.MinPrice}</h5>
+				{/* See note in Readme about below button */}
 				<a target = "_blank" href={`https://viagogo.com${props.eventInfo.EventUrl}`}><button className = 'buy'>Buy Tickets</button></a>
 			</div>
 			</div>
