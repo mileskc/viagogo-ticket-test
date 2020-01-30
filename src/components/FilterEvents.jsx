@@ -1,6 +1,5 @@
 import React from 'react'
 import json from '../data'
-// import Events from './Event'
 import FilteredCities from './FilteredCities'
 
 class FilterEvents extends React.Component{

@@ -1,7 +1,6 @@
 import React from 'react'
 import json from '../data'
 import Event from './Event'
-// import FilteredCities from './FilteredCities'
 import '../style/Events.css'
 
 class SearchEvents extends React.Component {
