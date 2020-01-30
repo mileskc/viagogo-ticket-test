@@ -1,0 +1,87 @@
+.event {
+    display: flex;
+    /* flex-direction: column; */
+    /* align-items: center; */
+    width: 80%;
+    background-color: white;
+    margin: 2px;
+    border: solid gray 1px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.dateInfo {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.dateInfo h4 {
+    margin: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+}
+
+.dateInfo h5 {
+    margin: 5px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bolder;
+    font-size: 1rem;
+}
+
+.venueInfo {
+    display: flex;
+    flex-direction: column;
+    margin: 0 100px 0 20px;
+    width: 30%;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+.venueCity {
+    font-size: 1.5rem;
+    margin: 5px 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.venueInfo h5 {
+    font-size: 1rem;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.price {
+    /* flex-direction: row; */
+    width: 100%;
+    /* display: flex;
+    justify-content: right; */
+}
+
+.priceInfo {
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 70%; */
+    width: 200px;
+    position: relative;
+    float: right;
+}
+
+.priceInfo h5 {
+    margin-left: 0;
+    margin: 5px 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+}
+
+.buy {
+    width: 60%;
+    height: 50px;
+    background-color: #A342DD;
+    color: white;
+    font-size: 1.2rem;
+    border-radius: 4%;
+    font-family: 'Roboto', sans-serif;
+}
