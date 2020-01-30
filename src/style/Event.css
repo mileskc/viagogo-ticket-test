@@ -75,3 +75,28 @@
     border-radius: 4%;
     font-family: 'Roboto', sans-serif;
 }
+
+@media (max-width: 600px) {
+    html {
+        width: 100%;
+    }
+
+    .header {
+        background-position-x: -400px;
+        background-position-y: -350px;
+    }
+
+    .header h1 {
+        width: 200px;
+    }
+
+    .event {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .venueInfo {
+        width: 100px;
+    }
+}
